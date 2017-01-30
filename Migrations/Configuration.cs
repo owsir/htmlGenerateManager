@@ -10,7 +10,7 @@ namespace HtmlGenerateManager.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = true;
-            ContextKey = "WebAPI.DAL.MyDbContext";
+            ContextKey = "HtmlGenerateManager.DAL.MyDbContext";
         }
 
         protected override void Seed(HtmlGenerateManager.DAL.MyDbContext context)

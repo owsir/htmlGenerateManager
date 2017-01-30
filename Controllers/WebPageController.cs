@@ -12,7 +12,8 @@ namespace HtmlGenerateManager.Controllers
     public class WebPageController : ApiController
     {
         private delegate void DelegateExecGenerate();
-        MyDbContext _db = new MyDbContext();
+
+        private readonly MyDbContext _db = new MyDbContext();
         // GET api/WebPage
         public List<WebPage> Get()
         {
