@@ -1,11 +1,11 @@
-namespace WebAPI.Migrations
+namespace HtmlGenerateManager.Migrations
 {
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<WebAPI.DAL.MyDbContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<HtmlGenerateManager.DAL.MyDbContext>
     {
         public Configuration()
         {
@@ -13,7 +13,7 @@ namespace WebAPI.Migrations
             ContextKey = "WebAPI.DAL.MyDbContext";
         }
 
-        protected override void Seed(WebAPI.DAL.MyDbContext context)
+        protected override void Seed(HtmlGenerateManager.DAL.MyDbContext context)
         {
             //  This method will be called after migrating to the latest version.
 

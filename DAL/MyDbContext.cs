@@ -5,9 +5,9 @@ using System.Data.Entity.ModelConfiguration.Conventions;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WebAPI.Models;
+using HtmlGenerateManager.Models;
 
-namespace WebAPI.DAL
+namespace HtmlGenerateManager.DAL
 {
     [DbConfigurationType(typeof(MySql.Data.Entity.MySqlEFConfiguration))]
     public class MyDbContext : DbContext
@@ -19,14 +19,8 @@ namespace WebAPI.DAL
         }
 
         public MyDbContext() : base("EFContext") { }
-        public DbSet<TailorMake> TailorMakeData
-        {
-            get;
-            set;
-        }
-        public DbSet<Tourquery> TourqueryData { get; set; }
+
         public DbSet<WebPage> WebPages { get; set; }
-        public DbSet<TestModel> TestModelData { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

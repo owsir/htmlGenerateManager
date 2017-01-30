@@ -2,13 +2,12 @@
 using System.Collections.Generic;
 using System.Configuration;
 using System.Linq;
-using System.Threading.Tasks;
 using System.Web.Http;
-using WebAPI.DAL;
-using WebAPI.Models;
-using WebAPI.ViewModels;
+using HtmlGenerateManager.DAL;
+using HtmlGenerateManager.Models;
+using HtmlGenerateManager.ViewModels;
 
-namespace WebAPI.Controllers
+namespace HtmlGenerateManager.Controllers
 {
     public class WebPageController : ApiController
     {

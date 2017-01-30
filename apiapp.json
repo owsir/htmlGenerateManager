@@ -1,10 +1,10 @@
 ﻿{
   "$schema": "http://json-schema.org/schemas/2014-11-01/apiapp.json#",
-  "id": "WebAPI",
+  "id": "HtmlGenerateManager",
   "namespace": "microsoft.com",
   "gateway": "2015-01-14",
   "version": "1.0.0",
-  "title": "WebAPI",
+  "title": "HtmlGenerateManager",
   "summary": "",
   "author": "",
   "endpoints": {
